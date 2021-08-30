@@ -46,10 +46,12 @@
   },
   "homepage": "https://github.com/mike-north/devcert#readme",
   "devDependencies": {
+    "@mike-north/types": "^1.3.2",
     "@microsoft/api-documenter": "^7.7.12",
     "@microsoft/api-extractor": "^7.7.8",
     "@types/command-exists": "^1.2.0",
     "@types/configstore": "^4.0.0",
+    "@types/date-fns": "^2.6.0",
     "@types/debug": "^4.1.5",
     "@types/dotenv": "^8.2.0",
     "@types/execa": "^0.9.0",
@@ -83,8 +85,6 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "@mike-north/types": "^1.3.2",
-    "@types/date-fns": "^2.6.0",
     "application-config-path": "^0.1.0",
     "chalk": "^3.0.0",
     "command-exists": "^1.2.4",
